@@ -31,7 +31,6 @@ public class unit1project {
         System.out.println("Your tip per person is $" + tipPerPerson);
         if ((totalPerPerson % 0.1)==0) {
         }
-        totalPerPerson = (int)totalPerPerson;
         else {System.out.println("Your total per person is $" + totalPerPerson + "0");
 
 
