@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="211b5e0f-ac11-4359-8316-6859396c1754" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit_1_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unit1project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unit1project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit1project.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +64,26 @@
       <option name="presentableId" value="Default" />
       <updated>1663774621770</updated>
     </task>
+    <task id="LOCAL-00001" summary="First save">
+      <created>1663776918212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663776918212</updated>
+    </task>
+    <task id="LOCAL-00002" summary="removed total perperson">
+      <created>1663777061205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663777061205</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First save" />
+    <MESSAGE value="removed total perperson" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed total perperson" />
   </component>
 </project>

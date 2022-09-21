@@ -29,9 +29,8 @@ public class unit1project {
         System.out.println("Your total bill is $" + totalBill);
         System.out.println("Your total tip is $" + totalTip);
         System.out.println("Your tip per person is $" + tipPerPerson);
-        if ((totalPerPerson % 0.1)==0) {
-        }
-        else {System.out.println("Your total per person is $" + totalPerPerson + "0");
+        System.out.println("Your total per person is $" + totalPerPerson);
 
 
-    }}}
+
+    }}
