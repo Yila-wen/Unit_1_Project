@@ -18,18 +18,19 @@ public class unit1project {
     tipPercentage = tipPercentage/100;
     System.out.println("Please input the number the people paying.");
     numberOfPeople = s.nextInt();
-    System.out.println(numberOfPeople);
     totalTip = bill * tipPercentage;
-    totalTip = Math.round(totalTip*100)/100;
-    tipPerPerson = totalTip/numberOfPeople;
-    totalBill = totalTip+bill;
-    totalPerPerson = totalBill/numberOfPeople;
-    totalPerPerson = Math.round(totalPerPerson*100)/100;
+
+        double roundedTotalTip = (double) Math.round(totalTip * 100) / 100;
+        tipPerPerson = roundedTotalTip/numberOfPeople;
+        double roundedTipPerPerson = (double) Math.round(tipPerPerson * 100) / 100;
+        totalBill = roundedTotalTip+bill;
+        totalPerPerson = totalBill/numberOfPeople;
+        double roundedTotalPerPerson = (double) Math.round(totalPerPerson * 100) / 100;
 
         System.out.println("Your total bill is $" + totalBill);
-        System.out.println("Your total tip is $" + totalTip);
-        System.out.println("Your tip per person is $" + tipPerPerson);
-        System.out.println("Your total per person is $" + totalPerPerson);
+        System.out.println("Your total tip is $" + roundedTotalTip);
+        System.out.println("Your tip per person is $" + roundedTipPerPerson);
+        System.out.println("Your total per person is $" + roundedTotalPerPerson);
 
 
 
